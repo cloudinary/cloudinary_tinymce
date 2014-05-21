@@ -7,6 +7,8 @@ Easily upload images to the cloud. Automatically perform smart image resizing, c
 
 This plugin replaces the image button of TinyMCE to allow you to add and manipulate images from Cloudinary's cloud-based media library.
 
+*Note: only version 3.x if TinyMCE is supported.*
+
 ## Setup
 
 1. Install [TinyMCE's jQuery plugin](http://www.tinymce.com/wiki.php/TinyMCE3x:jQuery_Plugin)
