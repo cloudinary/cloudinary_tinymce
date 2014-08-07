@@ -27,7 +27,7 @@ This plugin replaces the image button of TinyMCE to allow you to add and manipul
     ```
     def cms_config
       params = {"timestamp" => Time.now.to_i.to_s, "mode"=>"tinymce"}
-      Cloudinary::Utils.sign_request(params)
+      params = Cloudinary::Utils.sign_request(params)
       render :json=>{:cloudinary_cms_url=>"https://cloudinary.com/console/media_library/cms?#{params.to_query}"}
     end
     ```
