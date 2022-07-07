@@ -1,7 +1,7 @@
 Cloudinary TinyMCE Plugin
 =========================
 
-# *** This Plugin is no logger supported as the endpoint it uses has been sunset *** 
+# *** This Plugin is no longer supported as the endpoint it uses has been sunset *** 
 
 Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.
 
